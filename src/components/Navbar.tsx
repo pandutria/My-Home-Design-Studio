@@ -4,7 +4,7 @@ import logo from '../../public/images/logo/logo.svg'
 const Navbar = () => {
   return (
     <div>
-      <section className='fixed flex w-full justify-center bg-white lg:h-[11vh] md:h-[9vh] h-[9vh] items-center border-[1px] border-[#C4C4C4]'>
+      <section className='fixed flex w-full justify-center bg-white lg:h-[11vh] md:h-[9vh] h-[9vh] items-center border-[1px] border-[#C4C4C4] z-99'>
         <div className='container flex flex-row w-250 justify-between items-center'>
           <div className='flex flex-row items-center gap-5'>
             <img src={logo} className='w-16 h-auto object-contain' alt="" />
