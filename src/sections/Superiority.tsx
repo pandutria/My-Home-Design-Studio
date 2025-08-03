@@ -6,7 +6,7 @@ const Superiority = () => {
     <div className='flex overflow-x-hidden'>
       <section className='flex w-full lg:pt-20 md:pt-20 pt-15 justify-center'>
         <div className='container flex lg:flex-row md:flex-col flex-col lg:w-250 md:w-full w-full lg:px-0 md:px-5 px-5 justify-between'>
-          <div className='flex flex-col gap-5 lg:w-145 md:w-full w-full'>
+          <div data-aos="fade-right" className='flex flex-col gap-5 lg:w-145 md:w-full w-full'>
             <div className='flex flex-row w-full gap-5'>
               <hr className='h-full border-primary border-[1.5px]' />
               <div className='flex flex-col gap-1'>
@@ -46,7 +46,7 @@ const Superiority = () => {
               </div>
             </div>
           </div>
-          <div className='flex flex-row lg:mt-0 md:mt-10 mt-7 lg:w-auto md:w-full md:justify-between justify-between gap-5'>
+          <div data-aos="fade-left" className='flex flex-row lg:mt-0 md:mt-10 mt-7 lg:w-auto md:w-full md:justify-between justify-between gap-5'>
             <img src={super1} className='lg:w-45 md:w-[47%] w-[47%] lg:h-full md:h-auto h-auto rounded-[5px] lg:object-cover md:object-contain object-contain' alt="" />
             <img src={super2} className='lg:w-45 md:w-[47%] w-[47%] lg:h-full md:h-auto h-auto rounded-[5px] lg:object-cover md:object-contain object-contain' alt="" />
           </div>

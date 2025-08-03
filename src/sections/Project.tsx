@@ -15,8 +15,8 @@ const Project = () => {
     <div>
       <section className='flex w-full justify-center lg:pt-20 md:pt-20 pt-15'>
         <div className='container flex lg:flex-row md:flex-col flex-col lg:w-250 md:w-full w-full lg:px-0 md:px-5 px-5 justify-between'>
-            <img src={about} className='lg:w-100 md:w-full w-full lg:h-full md:h-auto rounded-[10px] lg:object-cover md:object-contain' alt="" />
-            <div className='flex flex-col lg:w-140 md:w-full gap-3 lg:mt-0 md:mt-10 mt-7'>
+            <img data-aos="fade-right" src={about} className='lg:w-100 md:w-full w-full lg:h-full md:h-auto rounded-[10px] lg:object-cover md:object-contain' alt="" />
+            <div data-aos="fade-left" className='flex flex-col lg:w-140 md:w-full gap-3 lg:mt-0 md:mt-10 mt-7'>
                 <h1 className='font-poppins font-semibold text-white lg:text-[14px] md:text-[14px] text-[13px] bg-primary rounded-[50px] py-1.5 px-4.5 items-center w-fit'>Project Kami</h1>
                 <h1 className='font-poppins font-bold lg:text-[33.5px] md:text-[33.5px] text-[20px] leading-[135%]'>Ruang Sakral yang Menyatukan <span className='text-primary'>Keindahan dan Kedamaian</span></h1>
                 <p className='font-poppins font-medium text-gray lg:text-[14.5px] md:text-[14.5px] text-[14px] leading-[165%]'>Ini adalah contoh project kami, yaitu tentang penginapan yang dirancang dengan konsep menyatu bersama ruang sakral di dalamnya. Desain ini menghadirkan suasana tenang dan damai, memadukan keindahan arsitektur dengan nilai-nilai spiritualitas yang mendalam.</p>

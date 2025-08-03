@@ -9,9 +9,9 @@ import aboutImg4 from "../../public/images/pic/about4.png"
 const About = () => {
   return (
     <div>
-      <section className='flex w-full lg:pt-0 md:pt-20 pt-15 lg:pb-20 md:pb-20 pb-15 justify-center'>
+      <section id="about" className='flex w-full lg:pt-0 md:pt-20 pt-15 lg:pb-20 md:pb-20 pb-15 justify-center'>
         <div className='container flex lg:flex-row md:flex-col flex-col lg:w-250 md:w-full w-full lg:px-0 md:px-5 px-5 justify-between items-end'>
-            <div className='flex flex-col lg:w-135 w-full gap-2'>
+            <div data-aos="fade-right" className='flex flex-col lg:w-135 w-full gap-2'>
                 <h1 className='font-montserrat font-bold lg:text-[42px] md:text-[42px] text-[30px]'>Tentang <span className='text-primary'>Studio Kami</span></h1>
                 <p className='font-poppins font-medium text-gray lg:text-[15px] md:text-[15px] text-[14px]'>My Home Design Studio adalah studio desain interior dan eksterior yang mengedepankan estetika, fungsi, dan kenyamanan. Dengan pengalaman lebih dari 5 tahun, kami membantu klien menciptakan ruang yang selaras dengan gaya hidup dan nilai mereka.</p>
                 <div className='flex flex-col gap-5 mt-5'>
@@ -38,7 +38,7 @@ const About = () => {
                     </div>
                 </div>
             </div>
-            <div className='flex flex-row lg:mt-0 md:mt-10 mt-8 lg:gap-5 md:gap-10 gap-5'>
+            <div data-aos="fade-left" className='flex flex-row lg:mt-0 md:mt-10 mt-8 lg:gap-5 md:gap-10 gap-5'>
                 <div className='flex flex-col gap-7'>
                     <img src={aboutImg1} className='lg:w-50 md:w-full h-auto object-contain' alt="" />
                     <img src={aboutImg2} className='lg:w-50 md:w-full h-auto object-contain' alt="" />
