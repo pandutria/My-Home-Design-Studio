@@ -42,11 +42,11 @@ const Footer = () => {
             <div className='flex flex-col gap-4'>
             <h1 className='font-poppins font-semibold text-white lg:text-[16px] md:text-[13px]'>Media Sosial</h1>
               <div className='flex flex-row lg:gap-5 md:gap-4 gap-4 lg:mt-2 md:mt-2 mt-0'>
-                <img src={facebook} className='lg:w-5 md:w-4 w-7 lg:h-5 md:h-4 h-7 object-contain' alt="" />
-                <img src={instagram} className='lg:w-5 md:w-4 w-7 lg:h-5 md:h-4 h-7 object-contain' alt="" />
-                <img src={tweeter} className='lg:w-5 md:w-4 w-7 lg:h-5 md:h-4 h-7 object-contain' alt="" />
-                <img src={youtube} className='lg:w-5 md:w-4 w-7 lg:h-5 md:h-4 h-7 object-contain' alt="" />
-                <img src={wordpress} className='lg:w-5 md:w-4 w-7 lg:h-5 md:h-4 h-7 object-contain' alt="" />
+                <img src={facebook} className='lg:w-5 md:w-4 w-8 lg:h-5 md:h-4 h-8 object-contain' alt="" />
+                <img src={instagram} className='lg:w-5 md:w-4 w-7 lg:h-5 md:h-4 h-8 object-contain' alt="" />
+                <img src={tweeter} className='lg:w-5 md:w-4 w-8 lg:h-5 md:h-4 h-8 object-contain' alt="" />
+                <img src={youtube} className='lg:w-5 md:w-4 w-8 lg:h-5 md:h-4 h-8 object-contain' alt="" />
+                <img src={wordpress} className='lg:w-5 md:w-4 w-8 lg:h-5 md:h-4 h-8 object-contain' alt="" />
               </div>
             </div>
           </div>
