@@ -6,6 +6,7 @@ import Service from '../sections/Service.tsx'
 import Superiority from '../sections/Superiority.tsx'
 import Testimonials from '../sections/Testimonials.tsx'
 import Footer from '../components/Footer.tsx'
+import Contact from '../sections/Contact.tsx'
 
 const Landing = () => {
   return (
@@ -17,6 +18,7 @@ const Landing = () => {
       <Superiority/>
       <Project/>
       <Testimonials/>
+      <Contact/>
       <Footer/>
     </div>
   )
