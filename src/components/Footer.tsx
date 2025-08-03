@@ -1,4 +1,3 @@
-import React from 'react'
 import logo from '../../public/images/logo/logo.svg'
 import facebook from '../../public/images/icon/facebook.png'
 import instagram from '../../public/images/icon/instagram.png'

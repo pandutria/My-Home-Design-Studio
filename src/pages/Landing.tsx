@@ -1,4 +1,3 @@
-import React from 'react'
 import Navbar from '../components/Navbar.tsx'
 import Home from '../sections/Home.tsx'
 import Project from '../sections/Project.tsx'
