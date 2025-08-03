@@ -28,7 +28,7 @@ const Navbar = () => {
 
   return (
     <div className='flex overflow-x-hidden'>
-      <section className='fixed top-0 flex flex-row w-full justify-center bg-white lg:h-[11vh] md:h-[9vh] h-[10vh] items-center border-[1px] border-[#C4C4C4] z-99'>
+      <section className='sticky top-0 flex flex-row w-full justify-center bg-white lg:h-[11vh] md:h-[9vh] h-[10vh] items-center border-[1px] border-[#C4C4C4] z-[9999]'>
         <div className='container flex flex-row lg:w-250 md:w-full w-full lg:px-0 md:px-5 px-5 justify-between items-center'>
           <div className='flex flex-row items-center lg:gap-5 md:gap-5 gap-3'>
             <img src={logo} className='lg:w-16 md:w-16 w-12 h-auto object-contain' alt="" />
