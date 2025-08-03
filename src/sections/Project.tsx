@@ -13,16 +13,16 @@ const Project = () => {
 
   return (
     <div>
-      <section className='flex w-full justify-center pt-20'>
-        <div className='container flex flex-row w-250 justify-between'>
-            <img src={about} className='w-100 h-full rounded-[10px] object-cover' alt="" />
-            <div className='flex flex-col w-140 gap-3'>
-                <h1 className='font-poppins font-semibold text-white text-[14px] bg-primary rounded-[50px] py-1.5 px-4.5 items-center w-fit'>Project Kami</h1>
-                <h1 className='font-poppins font-bold text-[33.5px] leading-[135%]'>Ruang Sakral yang Menyatukan <span className='text-primary'>Keindahan dan Kedamaian</span></h1>
-                <p className='font-poppins font-medium text-gray text-[14.5px] leading-[165%]'>Ini adalah contoh project kami, yaitu tentang penginapan yang dirancang dengan konsep menyatu bersama ruang sakral di dalamnya. Desain ini menghadirkan suasana tenang dan damai, memadukan keindahan arsitektur dengan nilai-nilai spiritualitas yang mendalam.</p>
-                <div className='flex flex-row w-full h-full gap-4 mt-2'>
-                    <div className='flex flex-col w-full gap-4 self-start'>
-                        <div className='flex flex-row w-full pr-15 gap-8'>
+      <section className='flex w-full justify-center lg:pt-20 md:pt-20 pt-15'>
+        <div className='container flex lg:flex-row md:flex-col flex-col lg:w-250 md:w-full w-full lg:px-0 md:px-5 px-5 justify-between'>
+            <img src={about} className='lg:w-100 md:w-full w-full lg:h-full md:h-auto rounded-[10px] lg:object-cover md:object-contain' alt="" />
+            <div className='flex flex-col lg:w-140 md:w-full gap-3 lg:mt-0 md:mt-10 mt-7'>
+                <h1 className='font-poppins font-semibold text-white lg:text-[14px] md:text-[14px] text-[13px] bg-primary rounded-[50px] py-1.5 px-4.5 items-center w-fit'>Project Kami</h1>
+                <h1 className='font-poppins font-bold lg:text-[33.5px] md:text-[33.5px] text-[20px] leading-[135%]'>Ruang Sakral yang Menyatukan <span className='text-primary'>Keindahan dan Kedamaian</span></h1>
+                <p className='font-poppins font-medium text-gray lg:text-[14.5px] md:text-[14.5px] text-[14px] leading-[165%]'>Ini adalah contoh project kami, yaitu tentang penginapan yang dirancang dengan konsep menyatu bersama ruang sakral di dalamnya. Desain ini menghadirkan suasana tenang dan damai, memadukan keindahan arsitektur dengan nilai-nilai spiritualitas yang mendalam.</p>
+                <div className='flex lg:flex-row md:flex-row flex-col w-full h-full gap-4 mt-2'>
+                    <div className='flex flex-col w-full gap-4'>
+                        <div className='flex flex-row w-full lg:pr-15 md:pr-15 pr-0 gap-8'>
                             <div onClick={() => setProject("interior")} className='cursor-pointer flex flex-col w-full items-center'>
                                 <h1 className={`${project == 'interior' ? 'text-primary' : 'text-[#979797]'} font-poppins font-medium text-[16px]`}>Interior Design</h1>
                                 <div className='flex w-full justify-center items-center'>
@@ -54,7 +54,7 @@ const Project = () => {
                             </div>
                         </div>
                     </div>
-                    <img src={aboutPhoto} className='w-43 h-47 rounded-[5px] object-cover self-end' alt="" />
+                    <img src={aboutPhoto} className='lg:w-43 md:w-43 w-full lg:h-47 md:h-47 h-auto rounded-[5px] lg:object-cover md:object-cover object-contain lg:self-end md:self-end lg:mt-0 md:mt-0 mt-5' alt="" />
                 </div>
             </div>
         </div>

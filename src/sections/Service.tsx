@@ -7,11 +7,11 @@ const Service = () => {
   return (
     <div>
       <section className='flex w-full justify-center py-15 bg-primary'>
-        <div className='container flex flex-col w-250 gap-3'>
+        <div className='container flex flex-col lg:w-250 md:w-full w-full lg:px-0 md:px-5 px-5 gap-3'>
             <h1 className='font-poppins font-semibold text-white text-[13px] bg-secondary rounded-[50px] w-fit py-2 px-5'>Layanan Kami</h1>
-            <h1 className='font-poppins font-semibold text-white text-[35px] w-140 leading-[130%] mt-1'>Wujudkan Hunian Impian dengan Sentuhan Profesional</h1>
-            <p className='font-poppins font-normal text-white text-[15.5px] w-140'>Kami menghadirkan berbagai layanan desain untuk menciptakan ruang yang indah, nyaman, dan selaras dengan gaya hidup Anda.</p>
-            <div className='flex flex-row w-full gap-5 mt-5'>
+            <h1 className='font-poppins font-semibold text-white lg:text-[35px] md:text-[35px] text-[20px] lg:w-140 md:w-140 w-full leading-[130%] mt-1'>Wujudkan Hunian Impian dengan Sentuhan Profesional</h1>
+            <p className='font-poppins font-normal text-white lg:text-[15.5px] md:text-[15.5px] text-[14px] lg:w-140 md:w-140 w-full'>Kami menghadirkan berbagai layanan desain untuk menciptakan ruang yang indah, nyaman, dan selaras dengan gaya hidup Anda.</p>
+            <div className='flex lg:flex-row md:flex-row flex-col w-full gap-5 mt-5'>
                 <div className='flex flex-col w-full bg-white rounded-[6px] gap-1 py-6 px-5'>
                     <img src={service1} className='w-9 h-9 object-contain' alt="" />
                     <h1 className='font-poppins font-semibold text-primary text-[20px] mt-2'>Desain Interior</h1>

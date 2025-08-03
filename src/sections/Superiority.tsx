@@ -4,20 +4,20 @@ import super2 from '../../public/images/pic/superior2.png'
 
 const Superiority = () => {
   return (
-    <div>
-      <section className='flex w-full pt-20 justify-center'>
-        <div className='container flex flex-row w-250 justify-between'>
-          <div className='flex flex-col gap-5 w-145'>
+    <div className='flex overflow-x-hidden'>
+      <section className='flex w-full lg:pt-20 md:pt-20 pt-15 justify-center'>
+        <div className='container flex lg:flex-row md:flex-col flex-col lg:w-250 md:w-full w-full lg:px-0 md:px-5 px-5 justify-between'>
+          <div className='flex flex-col gap-5 lg:w-145 md:w-full w-full'>
             <div className='flex flex-row w-full gap-5'>
               <hr className='h-full border-primary border-[1.5px]' />
               <div className='flex flex-col gap-1'>
                 <h1 className='font-poppins font-semibold text-white text-[13px] bg-primary rounded-[50px] py-1.5 px-4 items-center w-fit'>Mengapa Memilih Kami?</h1>
-                <h1 className='font-poppins font-semibold text-[30px] mt-2'>Desain yang Melampaui Ekspektasi</h1>
-                <p className='font-poppins font-medium text-gray text-[15px]'>Desain luar biasa untuk hasil yang tak biasa  kami menggabungkan estetika, fungsionalitas, dan nilai personal di setiap ruang.</p>
+                <h1 className='font-poppins font-semibold lg:text-[30px] md:text-[30px] text-[25px] mt-2'>Desain yang Melampaui Ekspektasi</h1>
+                <p className='font-poppins font-medium text-gray lg:text-[15px] md:text-[15px] text-[13px]'>Desain luar biasa untuk hasil yang tak biasa  kami menggabungkan estetika, fungsionalitas, dan nilai personal di setiap ruang.</p>
               </div>
             </div>
             <div className='flex flex-col gap-5 w-full'>
-              <div className='flex flex-row gap-5 w-full'>
+              <div className='flex lg:flex-row md:flex-row flex-col gap-5 w-full'>
                 <div className='flex flex-col bg-gradient-two w-full px-5 pt-4 pb-6 rounded-[7.5px]'>
                   <h1 className='font-poppins font-bold text-white text-[40px]'>5+</h1>
                   <p className='font-poppins font-semibold text-white text-[17px] leading-[120%]'>Tahun Pengalaman</p>
@@ -31,7 +31,7 @@ const Superiority = () => {
                   <p className='font-poppins font-semibold text-white text-[17px] leading-[120%]'>Penghargaan Desain</p>
                 </div>
               </div>
-              <div className='flex flex-row gap-5 w-full'>
+              <div className='flex lg:flex-row md:flex-row flex-col gap-5 w-full'>
                 <div className='flex flex-col bg-gradient-two w-full px-5 pt-4 pb-6 rounded-[7.5px]'>
                   <h1 className='font-poppins font-bold text-white text-[40px]'>75%</h1>
                   <p className='font-poppins font-semibold text-white text-[17px] leading-[120%]'>Klien Kembali Membeli</p>
@@ -47,9 +47,9 @@ const Superiority = () => {
               </div>
             </div>
           </div>
-          <div className='flex flex-row gap-5'>
-            <img src={super1} className='w-45 h-full rounded-[5px] object-cover' alt="" />
-            <img src={super2} className='w-45 h-full rounded-[5px] object-cover' alt="" />
+          <div className='flex flex-row lg:mt-0 md:mt-10 mt-7 lg:w-auto md:w-full md:justify-between justify-between gap-5'>
+            <img src={super1} className='lg:w-45 md:w-[47%] w-[47%] lg:h-full md:h-auto h-auto rounded-[5px] lg:object-cover md:object-contain object-contain' alt="" />
+            <img src={super2} className='lg:w-45 md:w-[47%] w-[47%] lg:h-full md:h-auto h-auto rounded-[5px] lg:object-cover md:object-contain object-contain' alt="" />
           </div>
         </div>
       </section>
