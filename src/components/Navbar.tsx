@@ -44,7 +44,7 @@ const Navbar = () => {
             <a href="#testimonial" className={`${activeSection == 'testimonial' ? 'text-primary font-semibold' : 'text-black font-normal'} font-poppins text-[15px]`}>Testimoni</a>
             <a href="#contact" className='font-poppins font-semibold text-white text-[13.5px] bg-primary rounded-[50px] py-2 px-4 items-center'>Kontak Kami</a>
           </div>
-          <img src={hamburger} onClick={() => setIsOpen(!isOpen)} className={` ${isOpen ? 'rotate-90' : 'rotate-0'} lg:hidden md:hidden flex w-6 h-auto object-contain cursor-pointer transition-transform duration-300 z-50`} alt="" />
+          <img src={hamburger} onClick={() => setIsOpen(!isOpen)} className={` ${isOpen ? 'rotate-90' : 'rotate-0'} lg:hidden md:hidden flex w-6 h-auto object-contain cursor-pointer transition-transform duration-300 z-100`} alt="" />
         </div>
       </section>
     </div>
