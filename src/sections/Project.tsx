@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import { useState } from 'react'
 import about from '../../public/images/pic/about.png'
 import aboutPhoto from '../../public/images/pic/+12photo.png'
 import plygon from '../../public/images/icon/polygon.png'

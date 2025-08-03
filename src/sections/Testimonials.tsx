@@ -1,4 +1,3 @@
-import React from 'react'
 import testimonial1 from '../../public/images/pic/testimonial1.png'
 import testimonial2 from '../../public/images/pic/testimonial2.png'
 import testimonial3 from '../../public/images/pic/testimonial3.png'
@@ -9,7 +8,7 @@ import testimonial6 from '../../public/images/pic/testimonial6.png'
 const Testimonials = () => {
   return (
     <div className='flex overflow-x-hidden'>
-      <section className='flex w-full lg:pt-20 md:pt-20 pt-15 pb-10 justify-center'>
+      <section className='flex w-full lg:pt-20 md:pt-20 pt-15 lg:pb-10 md:pb-10 pb-0 justify-center'>
         <div className='container flex flex-col lg:w-250 md:w-full w-full lg:px-0 md:px-5 px-5 gap-1 items-center'>
             <p className='uppercase font-poppins font-medium text-primary text-[16px] tracking-widest'>Testimoni</p>
             <h1 className='font-poppins font-bold text-[30px]'>Ulasan Klien Kami</h1>

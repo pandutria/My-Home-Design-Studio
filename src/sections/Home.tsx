@@ -1,4 +1,3 @@
-import React from 'react'
 import homeImg from '../../public/images/pic/home.png'
 import persons from '../../public/images/pic/persons.png'
 

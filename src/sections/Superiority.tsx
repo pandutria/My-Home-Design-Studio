@@ -1,4 +1,3 @@
-import React from 'react'
 import super1 from '../../public/images/pic/superior1.png'
 import super2 from '../../public/images/pic/superior2.png'
 
