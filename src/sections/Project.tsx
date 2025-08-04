@@ -81,7 +81,7 @@ const Project = () => {
         alt=""
       />
     ) : (
-        <div className='w-12' />
+        <div className='lg:w-12 md:w-12 w-10' />
     )}
 
     <img
@@ -108,7 +108,7 @@ const Project = () => {
         alt=""
       />
     ) : (
-        <div className='w-12' />
+        <div className='lg:w-12 md:w-12 w-10' />
     )}
   </div>
 )}
