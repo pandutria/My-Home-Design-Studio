@@ -16,20 +16,20 @@ const Contact = () => {
 
   const handleSend = () => {
   const message = `*Pesanan Desain Ruang*
-=======================
-*Nama:* ${name || '-'}
-*Telepon:* ${phone || '-'}
-*Email:* ${emailAddress || '-'}
-*Tanggal Pemesanan:* ${date || '-'}
-*Layanan:* ${service || '-'}
-*Pertanyaan Tambahan:* ${question || '-'}
+  =======================
+  *Nama:* ${name || '-'}
+  *Telepon:* ${phone || '-'}
+  *Email:* ${emailAddress || '-'}
+  *Tanggal Pemesanan:* ${date || '-'}
+  *Layanan:* ${service || '-'}
+  *Pertanyaan Tambahan:* ${question || '-'}
 
-Terima kasih telah menghubungi My Home Design Studio! Kami akan segera menghubungi Anda.`;
+  Terima kasih telah menghubungi My Home Design Studio! Kami akan segera menghubungi Anda.`;
 
-  const encodedMessage = encodeURIComponent(message);
-  const whatsappNumber = "62895704440602";
-  window.open(`https://wa.me/${whatsappNumber}?text=${encodedMessage}`, '_blank');
-};
+    const encodedMessage = encodeURIComponent(message);
+    const whatsappNumber = "6287769670882";
+    window.open(`https://wa.me/${whatsappNumber}?text=${encodedMessage}`, '_blank');
+  };
 
 
 
@@ -42,22 +42,22 @@ Terima kasih telah menghubungi My Home Design Studio! Kami akan segera menghubun
                 <h1 className="font-poppins font-semibold lg:text-[40px] md:text-[35px] text-[25px] leading-[120%]">Pesan Sekarang & Ubah <span className="text-primary">Ruang Anda Hari Ini</span></h1>
                 <p className="font-poppins font-medium text-gray lg:text-[14px] md:text-[14px] text-[13px] lg:w-115 md:w-full mt-1">Lagi pengen bikin rumah makin estetik? Atau kantor kamu butuh sentuhan desain biar makin kece? Kami siap bantu wujudkan ruang impianmu dari interior minimalis sampai eksterior yang bikin tetangga ngelirik</p>
                 <div className="flex flex-col gap-2">
-                  <div className="flex flex-row mt-2 items-center gap-2">
+                  <a href='https://wa.me/6287769670882' className="cursor-pointer flex flex-row mt-2 items-center gap-2">
                     <img src={whatsaap} className='w-5 h-auto object-contain' alt="" />
                     <p className='font-poppins font-medium text-gray text-[13px]'>+62 877-6967-0882</p>
-                  </div>
-                  <div className="flex flex-row mt-2 items-center gap-2">
+                  </a>
+                  <a href='mailto:homedesignstudiomail@gmail.com' className="cursor-pointer flex flex-row mt-2 items-center gap-2">
                     <img src={email} className='w-5 h-auto object-contain' alt="" />
                     <p className='font-poppins font-medium text-gray text-[13px]'>homedesignstudiomail@gmail.com</p>
-                  </div>
-                  <div className="flex flex-row mt-2 items-center gap-2">
+                  </a>
+                  <a href='https://www.youtube.com/@MyHomeDesignStudio' className="cursor-pointer flex flex-row mt-2 items-center gap-2">
                     <img src={youtube} className='w-5 h-auto object-contain' alt="" />
                     <p className='font-poppins font-medium text-gray text-[13px]'>MyHome Design Studio</p>
-                  </div>
-                  <div className="flex flex-row mt-2 items-center gap-2">
+                  </a>
+                  <a href='https://www.instagram.com/myhomedesign.studio?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==' className="cursor-pointer flex flex-row mt-2 items-center gap-2">
                     <img src={instagram} className='w-5 h-auto object-contain' alt="" />
                     <p className='font-poppins font-medium text-gray text-[13px]'>myhomedesign.studio</p>
-                  </div>
+                  </a>
                 </div>
                 <img src={contact} className='lg:w-120 md:w-full h-auto object-contain mt-7' alt="" />
             </div>

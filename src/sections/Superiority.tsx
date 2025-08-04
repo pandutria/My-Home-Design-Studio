@@ -18,7 +18,7 @@ const Superiority = () => {
             <div className='flex flex-col gap-5 w-full'>
               <div className='flex lg:flex-row md:flex-row flex-col gap-5 w-full'>
                 <div className='flex flex-col bg-gradient-two w-full px-5 pt-4 pb-6 rounded-[7.5px]'>
-                  <h1 className='font-poppins font-bold text-white text-[40px]'>5+</h1>
+                  <h1 className='font-poppins font-bold text-white text-[40px]'>15+</h1>
                   <p className='font-poppins font-semibold text-white text-[17px] leading-[120%]'>Tahun Pengalaman</p>
                 </div>
                 <div className='flex flex-col bg-gradient-two w-full px-5 pt-4 pb-6 rounded-[7.5px]'>
