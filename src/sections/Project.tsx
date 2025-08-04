@@ -3,6 +3,8 @@ import about from '../../public/images/pic/about.png'
 import aboutPhoto from '../../public/images/pic/+12photo.png'
 import plygon from '../../public/images/icon/polygon.png'
 import checklist from '../../public/images/icon/checklist.png'
+import left_arrow from '../../public/images/icon/left-arrow.png'
+import right_arrow from '../../public/images/icon/right-arrow.png'
 
 const Project = () => {
   const [project, setProject] = useState ("interior")
@@ -10,6 +12,10 @@ const Project = () => {
   const checkListText1 = ["Penataan ruang sesuai kebutuhan klien", "Desain fasad yang menarik dan fungsional"]
   const checkListText2 = ["Pemilihan material warna yang harmonis", "Penataan lanskap dan area luar"]
   const checkListText3 = ["Tata furnitur yang menyatu", "Material tahan cuaca dan estetis"]
+  const [isModalOpen, setIsModalOpen] = useState(false)
+  const galeriInterior = [aboutPhoto, aboutPhoto, aboutPhoto]
+  const galeriExterior = [aboutPhoto, aboutPhoto]
+  const [currentImageIndex, setCurrentImageIndex] = useState(0)
 
   return (
     <div>
@@ -54,11 +60,59 @@ const Project = () => {
                             </div>
                         </div>
                     </div>
-                    <img src={aboutPhoto} className='lg:w-43 md:w-43 w-full lg:h-47 md:h-47 h-auto rounded-[5px] lg:object-cover md:object-cover object-contain lg:self-end md:self-end lg:mt-0 md:mt-0 mt-5' alt="" />
+                    <img onClick={() => {setIsModalOpen(true); setCurrentImageIndex(0)}} src={aboutPhoto} className='lg:w-43 md:w-43 w-full lg:h-47 md:h-47 h-auto rounded-[5px] lg:object-cover md:object-cover object-contain lg:self-end md:self-end lg:mt-0 md:mt-0 mt-5' alt="" />
                 </div>
             </div>
         </div>
       </section>
+      {isModalOpen && (
+  <div
+    onClick={() => setIsModalOpen(false)}
+    className='fixed flex flex-row top-0 left-0 w-full lg:px-20 md:px-10 px-5 h-screen overflow-hidden bg-black bg-opacity-70 justify-between items-center z-[99999]'
+  >
+    {currentImageIndex > 0 ? (
+      <img
+        onClick={(e) => {
+          e.stopPropagation()
+          setCurrentImageIndex((prev) => prev - 1)
+        }}
+        src={left_arrow}
+        className='cursor-pointer lg:w-12 md:w-12 w-10 h-auto object-contain'
+        alt=""
+      />
+    ) : (
+        <div className='w-12' />
+    )}
+
+    <img
+      onClick={(e) => e.stopPropagation()}
+      src={
+        project === 'interior'
+          ? galeriInterior[currentImageIndex]
+          : galeriExterior[currentImageIndex]
+      }
+      className='lg:w-[90%] md:w-[80%] w-[65%] max-w-3xl object-cover rounded-[10px]'
+      alt=""
+    />
+
+    {(project === 'interior'
+      ? currentImageIndex < galeriInterior.length - 1
+      : currentImageIndex < galeriExterior.length - 1) ? (
+      <img
+        onClick={(e) => {
+          e.stopPropagation()
+          setCurrentImageIndex((prev) => prev + 1)
+        }}
+        src={right_arrow}
+        className='cursor-pointer lg:w-12 md:w-12 w-10 h-auto object-contain'
+        alt=""
+      />
+    ) : (
+        <div className='w-12' />
+    )}
+  </div>
+)}
+
     </div>
   )
 }
