@@ -19,9 +19,9 @@ import interior11 from '../../public/images/pic/indoor/11.png'
 import interior12 from '../../public/images/pic/indoor/12.png'
 import interior13 from '../../public/images/pic/indoor/13.png'
 import interior14 from '../../public/images/pic/indoor/14.png'
-import exterior1 from '../../public/images/pic/outdoor/1.png'
-import exterior2 from '../../public/images/pic/outdoor/2.png'
-import exterior3 from '../../public/images/pic/outdoor/3.png'
+import exterior1 from '../../public/images/pic/outdoor/4.png'
+import exterior2 from '../../public/images/pic/outdoor/5.png'
+import exterior3 from '../../public/images/pic/outdoor/6.png'
 
 const Project = () => {
   const [project, setProject] = useState ("interior")
