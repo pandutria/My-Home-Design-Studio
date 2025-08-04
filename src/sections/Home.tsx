@@ -11,7 +11,7 @@ const Home = () => {
             <h1 className='font-montserrat font-bold lg:text-[40px] md:text-[30px] text-[30px] leading-[135%]'>Kami Spesialis Desain Interior dan <span className='text-primary'>Eksterior Profesional</span></h1>
             <p className='font-poppins font-medium text-gray lg:text-[16px] md:text-[14px] text-[14px] leading-[165%]'>Kami adalah tim desain yang berfokus pada menciptakan ruang yang estetis, fungsional, dan sesuai kebutuhan klien. Dengan pengalaman dalam berbagai proyek mulai dari hunian pribadi, komersial, hingga tempat ibadah kami hadir untuk mewujudkan ide dan visi Anda menjadi ruang yang nyata dan inspiratif.</p>
             <div className='lg:flex md:hidden flex flex-row mt-5 gap-7 items-center'>
-              <a href="" className='font-poppins font-bold text-white lg:text-[14px] md:text-[12px] text-[12px] bg-gradient rounded-[50px] py-3 px-4.5 items-center'>Kunjungi Kami</a>
+              <a href="#about" className='font-poppins font-bold text-white lg:text-[14px] md:text-[12px] text-[12px] bg-gradient rounded-[50px] py-3 px-4.5 items-center'>Kunjungi Kami</a>
               <div className='lg:flex hidden flex-row gap-3 items-center'>
                 <img src={persons} className='w-30 h-auto object-contain' alt="" />
                 <div className='flex flex-col'>

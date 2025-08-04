@@ -5,6 +5,23 @@ import plygon from '../../public/images/icon/polygon.png'
 import checklist from '../../public/images/icon/checklist.png'
 import left_arrow from '../../public/images/icon/left-arrow.png'
 import right_arrow from '../../public/images/icon/right-arrow.png'
+import interior1 from '../../public/images/pic/indoor/1.png'
+import interior2 from '../../public/images/pic/indoor/2.png'
+import interior3 from '../../public/images/pic/indoor/3.png'
+import interior4 from '../../public/images/pic/indoor/4.png'
+import interior5 from '../../public/images/pic/indoor/5.png'
+import interior6 from '../../public/images/pic/indoor/6.png'
+import interior7 from '../../public/images/pic/indoor/7.png'
+import interior8 from '../../public/images/pic/indoor/8.png'
+import interior9 from '../../public/images/pic/indoor/9.png'
+import interior10 from '../../public/images/pic/indoor/10.png'
+import interior11 from '../../public/images/pic/indoor/11.png'
+import interior12 from '../../public/images/pic/indoor/12.png'
+import interior13 from '../../public/images/pic/indoor/13.png'
+import interior14 from '../../public/images/pic/indoor/14.png'
+import exterior1 from '../../public/images/pic/outdoor/1.png'
+import exterior2 from '../../public/images/pic/outdoor/2.png'
+import exterior3 from '../../public/images/pic/outdoor/3.png'
 
 const Project = () => {
   const [project, setProject] = useState ("interior")
@@ -13,8 +30,8 @@ const Project = () => {
   const checkListText2 = ["Pemilihan material warna yang harmonis", "Penataan lanskap dan area luar"]
   const checkListText3 = ["Tata furnitur yang menyatu", "Material tahan cuaca dan estetis"]
   const [isModalOpen, setIsModalOpen] = useState(false)
-  const galeriInterior = [aboutPhoto, aboutPhoto, aboutPhoto]
-  const galeriExterior = [aboutPhoto, aboutPhoto]
+  const galeriInterior = [interior1, interior2, interior3, interior4, interior5, interior6, interior7, interior8, interior9, interior10, interior11, interior12, interior13, interior14]
+  const galeriExterior = [exterior1, exterior2, exterior3]
   const [currentImageIndex, setCurrentImageIndex] = useState(0)
 
   return (
