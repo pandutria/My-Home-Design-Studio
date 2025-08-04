@@ -61,7 +61,7 @@ const Contact = () => {
                 </div>
                 <img src={contact} className='lg:w-120 md:w-full h-auto object-contain mt-7' alt="" />
             </div>
-            <div data-aos="fade-left" className='flex flex-col bg-white lg:w-110 md:w-80 h-full rounded-[15px] gap-6 px-7 py-5 items-center justify-center lg:mt-0 md:mt-0 mt-10 shadow-[0px_1px_12.4px_1px_rgba(0,0,0,0.25)]'>
+            <div data-aos="fade-left" className='flex flex-col bg-white lg:w-110 md:w-80 w-full lg:h-full md:h-full h-auto rounded-[15px] gap-6 px-7 py-5 items-center justify-center lg:mt-0 md:mt-0 mt-10 shadow-[0px_1px_12.4px_1px_rgba(0,0,0,0.25)]'>
               <div className='flex flex-row w-full gap-5'>
                 <div className='flex flex-col w-full gap-2'>
                   <div className='flex flex-row items-center gap-2'>
