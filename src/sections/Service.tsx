@@ -11,17 +11,17 @@ const Service = () => {
             <h1 data-aos="fade-down" className='font-poppins font-semibold text-white lg:text-[35px] md:text-[35px] text-[20px] lg:w-140 md:w-140 w-full leading-[130%] mt-1'>Wujudkan Hunian Impian dengan Sentuhan Profesional</h1>
             <p data-aos="fade-down" className='font-poppins font-normal text-white lg:text-[15.5px] md:text-[15.5px] text-[14px] lg:w-140 md:w-140 w-full'>Kami menghadirkan berbagai layanan desain untuk menciptakan ruang yang indah, nyaman, dan selaras dengan gaya hidup Anda.</p>
             <div data-aos="flip-left" className='flex lg:flex-row md:flex-row flex-col w-full gap-5 mt-5'>
-                <div className='flex flex-col w-full bg-white rounded-[6px] gap-1 py-6 px-5'>
-                    <img src={service1} className='w-9 h-9 object-contain' alt="" />
-                    <h1 className='font-poppins font-semibold text-primary text-[20px] mt-2'>Desain Interior</h1>
-                    <p className='font-poppins font-medium text-[#5F5F5F] text-[13px]'>Transformasi setiap sudut ruangan menjadi lebih estetis dan fungsional sesuai karakter Anda.</p>
-                </div>
-                <div className='flex flex-col w-full bg-white rounded-[6px] gap-1 py-6 px-5'>
+               <div className='flex flex-col w-full bg-white rounded-[6px] gap-1 py-6 px-5 hover:shadow-2xl transition duration-300 ease-in-out transform hover:-translate-y-2'>
                     <img src={service2} className='w-9 h-9 object-contain' alt="" />
                     <h1 className='font-poppins font-semibold text-primary text-[20px] mt-2'>Desain Eksterior</h1>
                     <p className='font-poppins font-medium text-[#5F5F5F] text-[13px]'>Ciptakan tampilan luar rumah yang memukau dan menyatu dengan lingkungan sekitar.</p>
                 </div>
-                <div className='flex flex-col w-full bg-white rounded-[6px] gap-1 py-6 px-5'>
+                <div className='flex flex-col w-full bg-white rounded-[6px] gap-1 py-6 px-5 hover:shadow-2xl transition duration-300 ease-in-out transform hover:-translate-y-2'>
+                    <img src={service1} className='w-9 h-9 object-contain' alt="" />
+                    <h1 className='font-poppins font-semibold text-primary text-[20px] mt-2'>Desain Interior</h1>
+                    <p className='font-poppins font-medium text-[#5F5F5F] text-[13px]'>Transformasi setiap sudut ruangan menjadi lebih estetis dan fungsional sesuai karakter Anda.</p>
+                </div>
+                <div className='flex flex-col w-full bg-white rounded-[6px] gap-1 py-6 px-5 hover:shadow-2xl transition duration-300 ease-in-out transform hover:-translate-y-2'>
                     <img src={service3} className='w-9 h-9 object-contain' alt="" />
                     <h1 className='font-poppins font-semibold text-primary text-[20px] mt-2'>Desain Komersial</h1>
                     <p className='font-poppins font-medium text-[#5F5F5F] text-[13px]'>Kami juga melayani desain untuk ruang usaha seperti hotel, kafe, dan kantor dengan pendekatan kreatif dan efisien.</p>

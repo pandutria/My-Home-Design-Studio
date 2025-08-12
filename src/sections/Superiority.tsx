@@ -22,7 +22,7 @@ const Superiority = () => {
                   <p className='font-poppins font-semibold text-white text-[17px] leading-[120%]'>Tahun Pengalaman</p>
                 </div>
                 <div className='flex flex-col bg-gradient-two w-full px-5 pt-4 pb-6 rounded-[7.5px]'>
-                  <h1 className='font-poppins font-bold text-white text-[40px]'>12+</h1>
+                  <h1 className='font-poppins font-bold text-white text-[40px]'>15+</h1>
                   <p className='font-poppins font-semibold text-white text-[17px] leading-[120%]'>Proyek Telah Selesai</p>
                 </div>
                 <div className='flex flex-col bg-gradient-two w-full px-5 pt-4 pb-6 rounded-[7.5px]'>
@@ -32,12 +32,12 @@ const Superiority = () => {
               </div>
               <div className='flex lg:flex-row md:flex-row flex-col gap-5 w-full'>
                 <div className='flex flex-col bg-gradient-two w-full px-5 pt-4 pb-6 rounded-[7.5px]'>
-                  <h1 className='font-poppins font-bold text-white text-[40px]'>75%</h1>
+                  <h1 className='font-poppins font-bold text-white text-[40px]'>99%</h1>
                   <p className='font-poppins font-semibold text-white text-[17px] leading-[120%]'>Klien Kembali Membeli</p>
                 </div>
                 <div className='flex flex-col bg-gradient-two w-full px-5 pt-4 pb-6 rounded-[7.5px]'>
                   <h1 className='font-poppins font-bold text-white text-[40px]'>7</h1>
-                  <p className='font-poppins font-semibold text-white text-[17px] leading-[120%]'>Tim Kami Profesional</p>
+                  <p className='font-poppins font-semibold text-white text-[17px] leading-[120%]'>Dikerjakan oleh tim Profesional</p>
                 </div>
                 <div className='flex flex-col bg-gradient-two w-full px-5 pt-4 pb-6 rounded-[7.5px]'>
                   <h1 className='font-poppins font-bold text-white text-[40px]'>100%</h1>

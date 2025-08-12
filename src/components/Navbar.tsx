@@ -9,7 +9,7 @@ const Navbar = () => {
   useEffect(() => {
     const handleScroll = () => {
       const scrollY = window.scrollY + 120
-      const sections = ['home', 'about', 'service', 'testimonial']
+      const sections = ['home', 'about', 'service', 'testimonial', 'contact']
       for (let id of sections) {
         const el = document.getElementById(id)
         if (el) {
@@ -42,7 +42,8 @@ const Navbar = () => {
             <a href="#about"className={`${activeSection == 'about' ? 'text-primary font-semibold' : 'text-black font-normal'} font-poppins text-[15px]`}>Tentang</a>
             <a href="#service" className={`${activeSection == 'service' ? 'text-primary font-semibold' : 'text-black font-normal'} font-poppins text-[15px]`}>Layanan</a>
             <a href="#testimonial" className={`${activeSection == 'testimonial' ? 'text-primary font-semibold' : 'text-black font-normal'} font-poppins text-[15px]`}>Testimoni</a>
-            <a href="#contact" className='font-poppins font-semibold text-white text-[13.5px] bg-primary rounded-[50px] py-2 px-4 items-center'>Kontak Kami</a>
+            <a href="#contact" className={`${activeSection == 'contact' ? 'text-primary font-semibold' : 'text-black font-normal'} font-poppins text-[15px]`}>Kontak</a>
+            {/* <a href="#contact" className='font-poppins font-semibold text-white text-[13.5px] bg-primary rounded-[50px] py-2 px-4 items-center'>Kontak Kami</a> */}
           </div>
           <img src={hamburger} onClick={() => setIsOpen(!isOpen)} className={` ${isOpen ? 'rotate-90' : 'rotate-0'} lg:hidden md:hidden flex w-6 h-auto object-contain cursor-pointer transition-transform duration-300 z-50 relative`} alt="" />
         </div>
