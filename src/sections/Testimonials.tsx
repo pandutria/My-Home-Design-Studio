@@ -7,8 +7,7 @@ import testimonial5 from '../../public/images/pic/testimonial5.png'
 import testimonial6 from '../../public/images/pic/testimonial6.png'
 import testimonial7 from '../../public/images/pic/testimonial7.png'
 import testimonial8 from '../../public/images/pic/testimonial8.png'
-import video1 from '../../public/Videos/lv_0_20250812104657.mp4'
-import video2 from '../../public/Videos/lv_0_20250813114540.mp4'
+import close from '../../public/images/icon/close.png'
 
 const Testimonials = () => {
   const [isModalOpen, setIsModalOpen] = useState(false)
@@ -32,15 +31,14 @@ const Testimonials = () => {
                 <img data-aos="zoom-in-up" src={testimonial4} className='lg:w-80 md:w-90 w-full h-auto object-contain lg:-mt-0 md:-mt-0 -mt-5' alt="" />
                 <img data-aos="zoom-in-up" src={testimonial5} className='lg:w-80 md:w-90 w-full h-auto object-contain lg:-mt-0 md:-mt-0 -mt-5' alt="" />
                 <img data-aos="zoom-in-up" src={testimonial6} className='lg:w-80 md:w-90 w-full h-auto object-contain lg:-mt-0 md:-mt-0 -mt-5' alt="" />
-                <img data-aos="zoom-in-up" onClick={() => openModal(video1)} src={testimonial7} className='cursor-pointer lg:w-120 md:w-90 w-full h-auto object-contain lg:-mt-0 md:-mt-0 -mt-5' alt="" />
-                <img data-aos="zoom-in-up" onClick={() => openModal(video2)} src={testimonial8} className='cursor-pointer lg:w-120 md:w-90 w-full h-auto object-contain lg:-mt-0 md:-mt-0 -mt-5' alt="" />
+                <img data-aos="zoom-in-up" onClick={() => openModal("https://firebasestorage.googleapis.com/v0/b/outgamble.appspot.com/o/lv_0_20250812104657.mp4?alt=media&token=97693d06-7f54-4a62-a1f3-04524a0e31f8")} src={testimonial7} className='cursor-pointer lg:w-120 md:w-90 w-full h-auto object-contain lg:-mt-0 md:-mt-0 -mt-5' alt="" />
+                <img data-aos="zoom-in-up" onClick={() => openModal("https://firebasestorage.googleapis.com/v0/b/outgamble.appspot.com/o/lv_0_20250813114540.mp4?alt=media&token=d8e8a5f9-0d62-4b3f-a455-30f2404ce694")} src={testimonial8} className='cursor-pointer lg:w-120 md:w-90 w-full h-auto object-contain lg:-mt-0 md:-mt-0 -mt-5' alt="" />
             </div>
         </div>
       </section>
       {isModalOpen && modalVideo && (
         <div
-          onClick={() => setIsModalOpen(false)}
-          className="fixed top-0 left-0 w-full h-screen flex justify-center items-center px-5 bg-black bg-opacity-70 z-[99999]"
+          className="fixed top-0 w-full h-screen flex flex-row justify-center items-center px-5 bg-black bg-opacity-70 z-[99999]"
         >
           <video
             onClick={(e) => e.stopPropagation()}
@@ -49,6 +47,7 @@ const Testimonials = () => {
             autoPlay
             className="w-auto rounded-[10px] h-screen object-contain"
           />
+          <img src={close} onClick={() => setIsModalOpen(false)} className='absolute right-0 top-0 lg:mt-10 md:mt-10 mt-5 lg:mr-10 md:mr-10 mr-5 lg:w-12 md:w-12 w-10 h-auto object-contain' alt="" />
         </div>
       )}
     </div>
