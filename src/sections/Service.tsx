@@ -62,7 +62,7 @@ const Service = () => {
                     <h1 className='font-poppins font-semibold text-primary text-[20px] mt-2'>Desain Interior</h1>
                     <p className='font-poppins font-medium text-[#5F5F5F] text-[13px]'>Transformasi setiap sudut ruangan menjadi lebih estetis dan fungsional sesuai karakter Anda.</p>
                 </div>
-                <div onClick={() => {setProject("komersial"); setCurrentImageIndex(0); setIsModalOpen(true);}} className='cursor-pointer flex flex-col w-full bg-white rounded-[6px] gap-1 py-6 px-5 hover:shadow-2xl transition duration-300 ease-in-out transform hover:-translate-y-2'>
+                <div onClick={() => {setProject("komersiall"); setCurrentImageIndex(0); setIsModalOpen(true);}} className='cursor-pointer flex flex-col w-full bg-white rounded-[6px] gap-1 py-6 px-5 hover:shadow-2xl transition duration-300 ease-in-out transform hover:-translate-y-2'>
                     <img src={service3} className='w-9 h-9 object-contain' alt="" />
                     <h1 className='font-poppins font-semibold text-primary text-[20px] mt-2'>Desain Komersial</h1>
                     <p className='font-poppins font-medium text-[#5F5F5F] text-[13px]'>Kami juga melayani desain untuk ruang usaha seperti hotel, kafe, dan kantor dengan pendekatan kreatif dan efisien.</p>
