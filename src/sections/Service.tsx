@@ -2,20 +2,6 @@ import { useState } from 'react';
 import service1 from '../../public/images/icon/service1.png'
 import service2 from '../../public/images/icon/service2.png'
 import service3 from '../../public/images/icon/service3.png'
-import interior1 from "../../public/images/pic/indoor/1.png";
-import interior2 from "../../public/images/pic/indoor/2.png";
-import interior3 from "../../public/images/pic/indoor/3.png";
-import interior4 from "../../public/images/pic/indoor/4.png";
-import interior5 from "../../public/images/pic/indoor/5.png";
-import interior6 from "../../public/images/pic/indoor/6.png";
-import interior7 from "../../public/images/pic/indoor/7.png";
-import interior8 from "../../public/images/pic/indoor/8.png";
-import interior9 from "../../public/images/pic/indoor/9.png";
-import interior10 from "../../public/images/pic/indoor/10.png";
-import interior11 from "../../public/images/pic/indoor/11.png";
-import interior12 from "../../public/images/pic/indoor/12.png";
-import interior13 from "../../public/images/pic/indoor/13.png";
-import interior14 from "../../public/images/pic/indoor/14.png";
 import exterior1 from "../../public/images/pic/outdoor/4.png";
 import exterior2 from "../../public/images/pic/outdoor/5.png";
 import exterior3 from "../../public/images/pic/outdoor/6.png";
@@ -32,6 +18,30 @@ import komersial11 from "../../public/images/pic/komersial/11.jpg";
 import komersial12 from "../../public/images/pic/komersial/12.jpg";
 import left_arrow from "../../public/images/icon/left-arrow.png";
 import right_arrow from "../../public/images/icon/right-arrow.png";
+import interiors1 from "../../public/images/pic/interiors/1.jpg"
+import interiors2 from "../../public/images/pic/interiors/2.jpg"
+import interiors3 from "../../public/images/pic/interiors/3.jpg"
+import interiors4 from "../../public/images/pic/interiors/4.jpg"
+import interiors5 from "../../public/images/pic/interiors/5.jpg"
+import interiors6 from "../../public/images/pic/interiors/6.jpg"
+import interiors7 from "../../public/images/pic/interiors/7.jpg"
+import interiors8 from "../../public/images/pic/interiors/8.jpg"
+import interiors10 from "../../public/images/pic/interiors/10.jpg"
+import interiors11 from "../../public/images/pic/interiors/11.jpg"
+import interiors12 from "../../public/images/pic/interiors/12.jpg"
+import interiors13 from "../../public/images/pic/interiors/13.jpg"
+import interiors14 from "../../public/images/pic/interiors/14a.jpg"
+import interiors15 from "../../public/images/pic/interiors/15.jpg"
+import interiors16 from "../../public/images/pic/interiors/16.jpg"
+import interiors17 from "../../public/images/pic/interiors/17.jpg"
+import interiors19 from "../../public/images/pic/interiors/19.jpg"
+import exteriors1 from "../../public/images/pic/exteriors/1PS.jpg"
+import exteriors2 from "../../public/images/pic/exteriors/2PS.jpg"
+import exteriors3 from "../../public/images/pic/exteriors/3PS.jpg"
+import exteriors4 from "../../public/images/pic/exteriors/4PS.jpg"
+import exteriors5 from "../../public/images/pic/exteriors/5PS.jpg"
+import exteriors6 from "../../public/images/pic/exteriors/6PS.jpg"
+import exteriors7 from "../../public/images/pic/exteriors/7PS.jpg"
 
 const Service = () => {
   const [project, setProject] = useState("");
@@ -39,10 +49,13 @@ const Service = () => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
   const galeriInterior = [
-    interior1, interior2, interior3, interior4, interior5, interior6, interior7,
-    interior8, interior9, interior10, interior11, interior12, interior13, interior14,
+    interiors1, interiors2, interiors3, interiors4, interiors5, interiors6, interiors7,
+    interiors8, interiors10, interiors11, interiors12, interiors13, interiors14, interiors15,
+    interiors16, interiors17, interiors19
   ];
-  const galeriExterior = [exterior1, exterior2, exterior3];
+
+  const galeriExterior = [exteriors1, exteriors2, exteriors3, exteriors4, exteriors5, exteriors6, exteriors7];
+
   const galeriKomersial = [
     komersial1, komersial2, komersial3, komersial4, komersial5, komersial6,
     komersial7, komersial8, komersial10, komersial11, komersial12,
