@@ -2,9 +2,6 @@ import { useState } from 'react';
 import service1 from '../../public/images/icon/service1.png'
 import service2 from '../../public/images/icon/service2.png'
 import service3 from '../../public/images/icon/service3.png'
-import exterior1 from "../../public/images/pic/outdoor/4.png";
-import exterior2 from "../../public/images/pic/outdoor/5.png";
-import exterior3 from "../../public/images/pic/outdoor/6.png";
 import komersial1 from "../../public/images/pic/komersial/1.jpg";
 import komersial2 from "../../public/images/pic/komersial/2.jpg";
 import komersial3 from "../../public/images/pic/komersial/3.jpg";
