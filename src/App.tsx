@@ -1,7 +1,7 @@
-import Landing from "./pages/Landing"
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from "react";
+import Router from "./router/Router";
 
 const App = () => {
   useEffect(() => {
@@ -13,7 +13,7 @@ const App = () => {
 
   return (
     <div className="overflow-x-hidden">
-      <Landing/>
+      <Router/>
     </div>
   )
 }

@@ -31,8 +31,6 @@ const Contact = () => {
     window.open(`https://wa.me/${whatsappNumber}?text=${encodedMessage}`, '_blank');
   };
 
-
-
   return (
     <div>
       <section id='contact' className="flex w-full justify-center lg:pt-10 md:pt-10 pt-10 pb-15">
