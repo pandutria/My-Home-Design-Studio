@@ -15,7 +15,7 @@ const Portfolio = () => {
           </div>
           <div className="grid lg:grid-cols-2 grid-cols-1 mx-auto mt-20 gap-16 items-start">
             {PortfolioData.map((item, index) => (
-              <div className={`${index % 2 ? 'lg:mt-20 mt-0' : 'mt-0'}`} key={index} data-aos="fade-up">
+              <div onClick={() => navigate(`/detail/${item.name}`)} className={`${index % 2 ? 'lg:mt-20 mt-0' : 'mt-0'}`} key={index} data-aos="fade-up">
                 <div className="flex relative group flex-col gap-6 cursor-pointer">
                   <div className="absolute bg-[#00000045] w-full h-0 group-hover:h-[300px] rounded-sm flex justify-center items-center duration-500 overflow-hidden">
                     <button onClick={() => navigate(`/detail/${item.name}`)} className='bg-white font-regular text-[20px] px-12 py-3 border-white border-3 hover:bg-transparent hover:text-white duration-200 cursor-pointer'>Detail</button>
