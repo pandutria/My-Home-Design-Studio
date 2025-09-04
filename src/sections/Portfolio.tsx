@@ -1,4 +1,3 @@
-import React from 'react'
 import { PortfolioData } from '../assets/PortfolioData'
 import { useNavigate } from 'react-router-dom'
 
