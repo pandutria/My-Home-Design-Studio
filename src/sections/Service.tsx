@@ -84,7 +84,7 @@ const galleries: Record<Category, { name: string; images: string[] }[]> = {
   exterior: [
     { name: 'Ahui Siantar - Cafe', images: [ahuiSiantar1, ahuiSiantar2, ahuiSiantar3, ahuiSiantar4, ahuiSiantar5, ahuiSiantar6, ahuiSiantar7] },
     { name: 'Fritto Chicken - Jalan Asia', images: [frittoChicken1, frittoChicken2, frittoChicken3, frittoChicken4, frittoChicken5, frittoChicken6, frittoChicken7, frittoChicken8, frittoChicken9, frittoChicken10, frittoChicken11] },
-    { name: 'Cemara Asih - Salon', images: [cemaraAsih1, cemaraAsih2, cemaraAsih3, cemaraAsih4, cemaraAsih5, cemaraAsih6] }
+    { name: 'Cemara Asri - Salon', images: [cemaraAsih1, cemaraAsih2, cemaraAsih3, cemaraAsih4, cemaraAsih5, cemaraAsih6] }
   ],
   interior: [
     {
