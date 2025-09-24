@@ -34,12 +34,49 @@ import cemaraAsih6 from '../../public/images/pic/new/Cemara-Asri/6.jpeg'
 
 import WinterHoliday1 from '../../public/images/pic/new/Winter-Holiday-Wilson/1.jpeg'
 import WinterHoliday2 from '../../public/images/pic/new/Winter-Holiday-Wilson/2.jpeg'
+import WinterHoliday3 from '../../public/images/pic/new/Winter-Holiday-Wilson/3.jpeg'
+import WinterHoliday4 from '../../public/images/pic/new/Winter-Holiday-Wilson/4.jpeg'
+import WinterHoliday5 from '../../public/images/pic/new/Winter-Holiday-Wilson/5.jpeg'
+import WinterHoliday6 from '../../public/images/pic/new/Winter-Holiday-Wilson/6.jpeg'
+import WinterHoliday7 from '../../public/images/pic/new/Winter-Holiday-Wilson/7.jpeg'
+import WinterHoliday8 from '../../public/images/pic/new/Winter-Holiday-Wilson/8.jpeg'
+import WinterHoliday9 from '../../public/images/pic/new/Winter-Holiday-Wilson/9.jpeg'
+import WinterHoliday10 from '../../public/images/pic/new/Winter-Holiday-Wilson/10.jpeg'
+import WinterHoliday11 from '../../public/images/pic/new/Winter-Holiday-Wilson/11.jpeg'
+import WinterHoliday12 from '../../public/images/pic/new/Winter-Holiday-Wilson/12.jpeg'
+import WinterHoliday13 from '../../public/images/pic/new/Winter-Holiday-Wilson/13.jpeg'
+import WinterHoliday15 from '../../public/images/pic/new/Winter-Holiday-Wilson/15.jpeg'
+import WinterHoliday14 from '../../public/images/pic/new/Winter-Holiday-Wilson/14.jpeg'
+import WinterHoliday16 from '../../public/images/pic/new/Winter-Holiday-Wilson/16.jpeg'
+import WinterHoliday17 from '../../public/images/pic/new/Winter-Holiday-Wilson/17.jpeg'
+import WinterHoliday18 from '../../public/images/pic/new/Winter-Holiday-Wilson/18.jpeg'
+import WinterHoliday19 from '../../public/images/pic/new/Winter-Holiday-Wilson/19.jpeg'
+import WinterHoliday20 from '../../public/images/pic/new/Winter-Holiday-Wilson/20.jpeg'
+import WinterHoliday21 from '../../public/images/pic/new/Winter-Holiday-Wilson/21.jpeg'
+import WinterHoliday22 from '../../public/images/pic/new/Winter-Holiday-Wilson/22.jpeg'
+import WinterHoliday23 from '../../public/images/pic/new/Winter-Holiday-Wilson/23.jpeg'
+import WinterHoliday24 from '../../public/images/pic/new/Winter-Holiday-Wilson/24.jpeg'
+import WinterHoliday25 from '../../public/images/pic/new/Winter-Holiday-Wilson/25.jpeg'
 
 import ahokVihara1 from '../../public/images/pic/new/Ahok-Vihara/1.jpeg'
 import ahokVihara2 from '../../public/images/pic/new/Ahok-Vihara/2.jpeg'
+import ahokVihara3 from '../../public/images/pic/new/Ahok-Vihara/3.jpeg'
+import ahokVihara4 from '../../public/images/pic/new/Ahok-Vihara/4.jpeg'
+import ahokVihara5 from '../../public/images/pic/new/Ahok-Vihara/5.jpeg'
+import ahokVihara6 from '../../public/images/pic/new/Ahok-Vihara/6.jpeg'
+import ahokVihara7 from '../../public/images/pic/new/Ahok-Vihara/7.jpeg'
+import ahokVihara8 from '../../public/images/pic/new/Ahok-Vihara/8.jpeg'
 
 import wilsonKatamsih1 from '../../public/images/pic/new/Wilson-Katamso/1.jpeg'
 import wilsonKatamsih2 from '../../public/images/pic/new/Wilson-Katamso/2.jpeg'
+import wilsonKatamsih3 from '../../public/images/pic/new/Wilson-Katamso/3.jpeg'
+import wilsonKatamsih4 from '../../public/images/pic/new/Wilson-Katamso/4.jpeg'
+import wilsonKatamsih5 from '../../public/images/pic/new/Wilson-Katamso/5.jpeg'
+import wilsonKatamsih6 from '../../public/images/pic/new/Wilson-Katamso/6.jpeg'
+import wilsonKatamsih7 from '../../public/images/pic/new/Wilson-Katamso/7.jpeg'
+import wilsonKatamsih8 from '../../public/images/pic/new/Wilson-Katamso/8.jpeg'
+import wilsonKatamsih9 from '../../public/images/pic/new/Wilson-Katamso/9.jpeg'
+import wilsonKatamsih10 from '../../public/images/pic/new/Wilson-Katamso/10.jpeg'
 
 type Category = 'exterior' | 'interior' | 'komersial'
 
@@ -50,11 +87,66 @@ const galleries: Record<Category, { name: string; images: string[] }[]> = {
     { name: 'Cemara Asih - Salon', images: [cemaraAsih1, cemaraAsih2, cemaraAsih3, cemaraAsih4, cemaraAsih5, cemaraAsih6] }
   ],
   interior: [
-    { name: 'Winter Holiday Wilson Amir Hamzah', images: [WinterHoliday1, WinterHoliday2] }
+    {
+      name: 'Winter Holiday Wilson Amir Hamzah',
+      images: [
+        WinterHoliday1,
+        WinterHoliday2,
+        WinterHoliday3,
+        WinterHoliday4,
+        WinterHoliday5,
+        WinterHoliday6,
+        WinterHoliday7,
+        WinterHoliday8,
+        WinterHoliday9,
+        WinterHoliday10,
+        WinterHoliday11,
+        WinterHoliday12,
+        WinterHoliday13,
+        WinterHoliday14,
+        WinterHoliday15,
+        WinterHoliday16,
+        WinterHoliday17,
+        WinterHoliday18,
+        WinterHoliday19,
+        WinterHoliday20,
+        WinterHoliday21,
+        WinterHoliday22,
+        WinterHoliday23,
+        WinterHoliday24,
+        WinterHoliday25
+      ]
+    }
   ],
   komersial: [
-    { name: 'Ahok Vihara', images: [ahokVihara1, ahokVihara2] },
-    { name: 'Wilson Katamso', images: [wilsonKatamsih1, wilsonKatamsih2] }
+    {
+      name: 'Ahok Vihara',
+      images: [
+        ahokVihara1,
+        ahokVihara2,
+        ahokVihara3,
+        ahokVihara4,
+        ahokVihara5,
+        ahokVihara6,
+        ahokVihara7,
+        ahokVihara8
+      ]
+    },
+    {
+      name: 'Wilson Katamso',
+      images: [
+        wilsonKatamsih1,
+        wilsonKatamsih2,
+        wilsonKatamsih3,
+        wilsonKatamsih4,
+        wilsonKatamsih5,
+        wilsonKatamsih6,
+        wilsonKatamsih7,
+        wilsonKatamsih8,
+        wilsonKatamsih9,
+        wilsonKatamsih10
+      ]
+    }
   ]
 }
 
