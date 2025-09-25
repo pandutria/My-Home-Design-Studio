@@ -88,7 +88,7 @@ const galleries: Record<Category, { name: string; images: string[] }[]> = {
   ],
   interior: [
     {
-      name: 'Winter Holiday Wilson Amir Hamzah',
+      name: 'Winter Holiday Katamso',
       images: [
         WinterHoliday1,
         WinterHoliday2,
@@ -120,7 +120,7 @@ const galleries: Record<Category, { name: string; images: string[] }[]> = {
   ],
   komersial: [
     {
-      name: 'Ahok Vihara',
+      name: 'Vihara',
       images: [
         ahokVihara1,
         ahokVihara2,
@@ -133,7 +133,7 @@ const galleries: Record<Category, { name: string; images: string[] }[]> = {
       ]
     },
     {
-      name: 'Wilson Katamso',
+      name: 'Winter Holiday Katamso',
       images: [
         wilsonKatamsih1,
         wilsonKatamsih2,
