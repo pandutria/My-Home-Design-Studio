@@ -88,7 +88,7 @@ const galleries: Record<Category, { name: string; images: string[] }[]> = {
   ],
   interior: [
     {
-      name: 'Winter Holiday Katamso',
+      name: 'Winter Holiday Amir Hamzah',
       images: [
         WinterHoliday1,
         WinterHoliday2,
